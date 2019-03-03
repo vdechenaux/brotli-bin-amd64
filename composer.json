@@ -1,0 +1,27 @@
+{
+    "name": "vdechenaux/brotli-bin-amd64",
+    "description": "Brotli binary provided by google/brotli and compiled for amd64",
+    "keywords": ["brotli", "linux", "amd64", "x86-64", "x86_64"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Dechenaux",
+            "email": "vincent.dechenaux@gmail.com"
+        },
+        {
+            "name": "Brotli Authors",
+            "homepage": "https://github.com/google/brotli"
+        }
+    ],
+    "autoload": {
+        "files": ["register_bin.php"]
+    },
+    "bin": [
+        "bin/brotli-amd64"
+    ],
+    "require": {},
+    "suggest": {
+        "vdechenaux/brotli": "Adds Brotli support in PHP thanks to this binary"
+    }
+}
