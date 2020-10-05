@@ -1,0 +1,4 @@
+language: bash
+
+script:
+    - echo "Hello World" | bin/brotli-amd64 | bin/brotli-amd64 -d | grep -Fx "Hello World"
